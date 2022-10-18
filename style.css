@@ -1,0 +1,9 @@
+body{ 
+    text-align: center;
+}
+#container {
+    border: 1px solid springgreen;
+    width: 600px;
+    height: 400px;
+    margin: auto;
+}
