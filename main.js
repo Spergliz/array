@@ -24,7 +24,7 @@ function drawarray() {
 //key
 document,addEventListener("keydown",keydownhandler);
 function keydownhandler(event){
-  console.log(event.keyCode)
-  myData[0] = 600;
+  for (let i = 0; i < myData.length; i++) {
+  myData[0] += 600;
 }
- 
+}
