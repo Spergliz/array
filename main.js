@@ -5,7 +5,7 @@ let containerE1 = document.getElementById("container")
 //global
 let myData = [];
 for (let n=1; n<=20; n++){
-  myData.push(300);
+  myData.push(Math.random()*600);
 }
 
 
@@ -20,3 +20,11 @@ function drawarray() {
   }
   containerE1.innerHTML = outputstr;
 }
+
+//key
+document,addEventListener("keydown",keydownhandler);
+function keydownhandler(event){
+  console.log(event.keyCode)
+  myData[0] = 600;
+}
+ 
