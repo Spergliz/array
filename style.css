@@ -4,6 +4,13 @@ body{
 #container {
     border: 1px solid springgreen;
     width: 600px;
-    height: 400px;
+    height: 700px;
     margin: auto;
+    display: flex;
+    align-items: flex-end;
+}
+#container div {
+background-color: blueviolet;
+border: 1px solid gray;
+flex: 1;
 }
