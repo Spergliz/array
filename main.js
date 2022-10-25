@@ -22,10 +22,10 @@ function drawarray() {
 document, addEventListener("keydown", keydownhandler);
 function keydownhandler(event) {
   if (event.keyCode === 38) {
-    myData.push(Math.random() * 600);
+   myData.push(Math.random() * 600);
   } else if (event.keyCode === 40) {
-   myData.pop()
-    
+   popval=myData.pop()
+    console.log(popval)  
   }
   //redraw
   drawarray();
