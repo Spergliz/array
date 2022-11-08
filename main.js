@@ -28,11 +28,5 @@ function keydownhandler(event) {
     let middleindex = Math.floor(myData.length / 2);
     myData.splice(middleindex,1) ;
   }
-  // if (event.keyCode === 38) {
-  //   myData.push(Math.random() * 600);
-  //  } else if (event.keyCode === 40) {
-  //   popval=myData.pop()
-  //    console.log(popval)
-  //redraw
   drawarray();
 }
